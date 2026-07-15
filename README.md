@@ -11,6 +11,12 @@
 | Geely Atlas Pro | Поддерживается / Supported |
 | Geely Monjaro | Поддерживается / Supported |
 
+## Статус / Status
+
+> **Все приложения разблокированы. Наслаждайтесь программами, мой друг.**
+>
+> **All applications are unlocked. Enjoy the software, my friend.**
+
 ---
 
 Материалы предназначены для исследования, проверки безопасности и аудита собственных систем.
