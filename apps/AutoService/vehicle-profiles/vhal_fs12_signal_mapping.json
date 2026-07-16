@@ -1,0 +1,861 @@
+﻿[
+  {
+    "propertyId": 10001,
+    "readSignalId": 557874774,
+    "readSignalName": "SIVehSpdIndcd"
+  },
+  {
+    "propertyId": 10002,
+    "readSignalId": 561024567,
+    "readSignalName": "paegyhvbattsoc"
+  },
+  {
+    "propertyId": 10003,
+    "readSignalId": 557874335,
+    "readSignalName": "GearLvrIndcn",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "0": "P",
+            "1": "R",
+            "2": "N",
+            "3": "D"
+          },
+          "default": "-"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10004,
+    "readSignalId": 557874371,
+    "readSignalName": "PtGearAct"
+  },
+  {
+    "propertyId": 10005,
+    "readSignalId": 559970553,
+    "readSignalName": "AmbTRawAmbTVal"
+  },
+  {
+    "propertyId": 10006,
+    "readSignalId": 559970555,
+    "readSignalName": "CmptmtTFrntCmptmtTFrnt"
+  },
+  {
+    "propertyId": 10007,
+    "readSignalId": 561024222,
+    "readSignalName": "pacenlocksetting"
+  },
+  {
+    "propertyId": 10008,
+    "readSignalId": 557873489,
+    "readSignalName": "ExtrLtgStsStopLi"
+  },
+  {
+    "propertyId": 10009,
+    "readSignalId": 557873490,
+    "readSignalName": "ExtrLtgStsTurnIndrLe"
+  },
+  {
+    "propertyId": 10010,
+    "readSignalId": 557873491,
+    "readSignalName": "ExtrLtgStsTurnIndrRi"
+  },
+  {
+    "propertyId": 10011,
+    "readSignalId": 561024446,
+    "readSignalName": "pafuelremainperc"
+  },
+  {
+    "propertyId": 10012,
+    "readSignalId": 561025089,
+    "readSignalName": "pafulvlindcdfulvlvalfromfutbl",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "expression",
+          "expression": "x / 1000"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10013,
+    "readSignalId": 561024429,
+    "readSignalName": "patirepressurefrontleft",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "expression",
+          "expression": "x / 10"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10014,
+    "readSignalId": 561024430,
+    "readSignalName": "patirepressurefrontright",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "expression",
+          "expression": "x / 10"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10015,
+    "readSignalId": 561024431,
+    "readSignalName": "patirepressurerearleft",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "expression",
+          "expression": "x / 10"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10016,
+    "readSignalId": 561024432,
+    "readSignalName": "patirepressurerearright",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "expression",
+          "expression": "x / 10"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10017,
+    "readSignalId": 557873270,
+    "readSignalName": "DoorDrvrSts",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10018,
+    "readSignalId": 557873277,
+    "readSignalName": "DoorPassSts",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10019,
+    "readSignalId": 557873271,
+    "readSignalName": "DoorLeReSts",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10020,
+    "readSignalId": 557873278,
+    "readSignalName": "DoorRiReSts",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10021,
+    "readSignalId": 557850019,
+    "readSignalName": "CLUSTER_POWERFLOW_ENGSPDDISPD",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "expression",
+          "expression": "x / 2"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10022,
+    "readSignalId": 561024546,
+    "readSignalName": "patsdteindicated"
+  },
+  {
+    "propertyId": 10023,
+    "readSignalId": 557871401,
+    "readSignalName": "AsyLineLeColor"
+  },
+  {
+    "propertyId": 10024,
+    "readSignalId": 557871402,
+    "readSignalName": "AsyLineLeTyp"
+  },
+  {
+    "propertyId": 10025,
+    "readSignalId": 557871403,
+    "readSignalName": "AsyLineRiColor"
+  },
+  {
+    "propertyId": 10026,
+    "readSignalId": 557871404,
+    "readSignalName": "AsyLineRiTyp"
+  },
+  {
+    "propertyId": 10027,
+    "readSignalId": 557849113,
+    "readSignalName": "CLUSTER_CHIME_LCMAINDCNLE"
+  },
+  {
+    "propertyId": 10028,
+    "readSignalId": 557849114,
+    "readSignalName": "CLUSTER_CHIME_LCMAINDCNRI"
+  },
+  {
+    "propertyId": 10029,
+    "readSignalId": 557849115,
+    "readSignalName": "CLUSTER_CHIME_LETTCLV"
+  },
+  {
+    "propertyId": 10030,
+    "readSignalId": 557849116,
+    "readSignalName": "CLUSTER_CHIME_RITTCLV"
+  },
+  {
+    "propertyId": 10031,
+    "readSignalId": 557848149,
+    "readSignalName": "APA_OUTDSNSRDSTOFFRNTLEBLK1"
+  },
+  {
+    "propertyId": 10032,
+    "readSignalId": 557848154,
+    "readSignalName": "APA_OUTDSNSRDSTOFFRNTRIBLK1"
+  },
+  {
+    "propertyId": 10033,
+    "readSignalId": 557848141,
+    "readSignalName": "APA_OUTDSNSRDSTOFRELEBLK1"
+  },
+  {
+    "propertyId": 10034,
+    "readSignalId": 557848143,
+    "readSignalName": "APA_INSDSNSRDSTOFRELEBLK1"
+  },
+  {
+    "propertyId": 10035,
+    "readSignalId": 557848145,
+    "readSignalName": "APA_INSDSNSRDSTOFRERIBLK1"
+  },
+  {
+    "propertyId": 10036,
+    "readSignalId": 557848147,
+    "readSignalName": "APA_OUTDSNSRDSTOFRERIBLK1"
+  },
+  {
+    "propertyId": 10037,
+    "readSignalId": 289475088,
+    "readSignalName": "HW_KEY_INPUT"
+  },
+  {
+    "propertyId": 10038,
+    "readSignalId": 557849510,
+    "readSignalName": "CLUSTER_WARNING_EXTRLTGSTSLOBEAM"
+  },
+  {
+    "propertyId": 10039,
+    "readSignalId": 557849181,
+    "readSignalName": "CLUSTER_WARNING_EXTRLTGSTSHIBEAM"
+  },
+  {
+    "propertyId": 10040,
+    "readSignalId": 557850632,
+    "readSignalName": "LCM_EPBLAMPREQEPBLAMPREQ",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "0": 1,
+            "1": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10041,
+    "readSignalId": 557849179,
+    "readSignalName": "CLUSTER_WARNING_EXTRLTGSTSPOSLIFRNT"
+  },
+  {
+    "propertyId": 10042,
+    "readSignalId": 557855125,
+    "readSignalName": "HU_EXTRLTGSTSREFOG"
+  },
+  {
+    "propertyId": 10043,
+    "readSignalId": 557969412,
+    "readSignalName": "AP_POWER_MODE_REQUEST"
+  },
+  {
+    "propertyId": 10044,
+    "readSignalId": 557848166,
+    "readSignalName": "APA_INDCRSTS"
+  },
+  {
+    "propertyId": 10045,
+    "readSignalId": 557854741,
+    "readSignalName": "HU_MIRRFOLDSTSATDRVR",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 0,
+            "4": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10046,
+    "readSignalId": 557854742,
+    "readSignalName": "HU_MIRRFOLDSTSATPASS",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 0,
+            "4": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10047,
+    "readSignalId": 557855068,
+    "readSignalName": "HU_PASSSEATSTS",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 1
+          },
+          "default": 0
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30011,
+    "readSignalId": 557850628,
+    "readSignalName": "LCM_TRSTS",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    },
+    "writeSignalId": 557854747,
+    "writeSignalName": "HU_TRUNKOPENHMIREQ"
+  },
+  {
+    "propertyId": 10049,
+    "readSignalId": 557849127,
+    "readSignalName": "CLUSTER_CHIME_SPDLIMFIRST"
+  },
+  {
+    "propertyId": 30010,
+    "readSignalId": 561023787,
+    "readSignalName": "panotifdimshowhide",
+    "writeSignalId": 557876793,
+    "writeSignalName": "cbnotifdimshowhide"
+  },
+  {
+    "propertyId": 30001,
+    "readSignalId": 557871549,
+    "readSignalName": "FaceIdnResForProfYesNo",
+    "writeSignalId": 557871549,
+    "writeSignalName": "FaceIdnResForProfYesNo"
+  },
+  {
+    "propertyId": 30002,
+    "readSignalId": 557873390,
+    "readSignalName": "WinPosnStsAtDrvr",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 7,
+            "17": 7,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 10,
+            "25": 10,
+            "26": 10
+          },
+          "default": 1
+        }
+      ]
+    },
+    "writeSignalId": 557872503,
+    "writeSignalName": "WinOpenDrvrReq",
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 9,
+            "5": 11,
+            "6": 14,
+            "7": 16,
+            "8": 19,
+            "9": 21,
+            "10": 26
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30003,
+    "readSignalId": 557873391,
+    "readSignalName": "WinPosnStsAtPass",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 7,
+            "17": 7,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 10,
+            "25": 10,
+            "26": 10
+          },
+          "default": 1
+        }
+      ]
+    },
+    "writeSignalId": 557872504,
+    "writeSignalName": "WinOpenPassReq",
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 9,
+            "5": 11,
+            "6": 14,
+            "7": 16,
+            "8": 19,
+            "9": 21,
+            "10": 26
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30004,
+    "readSignalId": 557873392,
+    "readSignalName": "WinPosnStsAtReLe",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 7,
+            "17": 7,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 10,
+            "25": 10,
+            "26": 10
+          },
+          "default": 1
+        }
+      ]
+    },
+    "writeSignalId": 557872505,
+    "writeSignalName": "WinOpenReLeReq",
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 9,
+            "5": 11,
+            "6": 14,
+            "7": 16,
+            "8": 19,
+            "9": 21,
+            "10": 26
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30005,
+    "readSignalId": 557873393,
+    "readSignalName": "WinPosnStsAtReRi",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 7,
+            "17": 7,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 10,
+            "25": 10,
+            "26": 10
+          },
+          "default": 1
+        }
+      ]
+    },
+    "writeSignalId": 557872506,
+    "writeSignalName": "WinOpenReRiReq",
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 9,
+            "5": 11,
+            "6": 14,
+            "7": 16,
+            "8": 19,
+            "9": 21,
+            "10": 26
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30006,
+    "readSignalId": 557854783,
+    "readSignalName": "HU_READLISTSFIRSTROWLE",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    },
+    "writeSignalId": 557854777,
+    "writeSignalName": "HU_READLIOPENREQFRONTLEFT",
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "0": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30007,
+    "readSignalId": 557854784,
+    "readSignalName": "HU_READLISTSFIRSTROWRI",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    },
+    "writeSignalId": 557854778,
+    "writeSignalName": "HU_READLIOPENREQFRONTRIGHT",
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "0": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30008,
+    "readSignalId": 557854785,
+    "readSignalName": "HU_READLISTSSECONDROWLE",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    },
+    "writeSignalId": 557854779,
+    "writeSignalName": "HU_READLIOPENREQSECONDROWLEFT",
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "0": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30009,
+    "readSignalId": 557854786,
+    "readSignalName": "HU_READLISTSSECONDROWRI",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    },
+    "writeSignalId": 557854780,
+    "writeSignalName": "HU_READLIOPENREQSECONDROWRIGHT",
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "0": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10050,
+    "readSignalId": 561024653,
+    "readSignalName": "paegychrgncableconn"
+  },
+  {
+    "propertyId": 10051,
+    "readSignalId": 561024572,
+    "readSignalName": "pavehchargchargacst"
+  },
+  {
+    "propertyId": 10052,
+    "readSignalId": 561024475,
+    "readSignalName": "pavstdmodests"
+  },
+  {
+    "propertyId": 10053,
+    "readSignalId": 557850644,
+    "readSignalName": "LCM_ALRMSTSALRMST"
+  },
+  {
+    "propertyId": 10054,
+    "readSignalId": 559947208,
+    "readSignalName": "CLUSTER_VEHMODMNGTGLBSAFE1ACCRPEDLRAT"
+  },
+  {
+    "propertyId": 10055,
+    "readSignalId": 557855126,
+    "readSignalName": "HU_BRKPEDLRRATPERC"
+  },
+  {
+    "propertyId": 10056,
+    "readSignalId": 557855239,
+    "readSignalName": "HU_BLTLOCKSTATDRVRBLTLOCKST1"
+  },
+  {
+    "propertyId": 10057,
+    "readSignalId": 557849285,
+    "readSignalName": "CLUSTER_ADAS_ASYAUTDRVCTRLTYP"
+  },
+  {
+    "propertyId": 10058,
+    "readSignalId": 557849839,
+    "readSignalName": "CLUSTER_ARHUD_STEERWHLSNSRAG"
+  },
+  {
+    "propertyId": 10059,
+    "readSignalId": 561024700,
+    "readSignalName": "padtetypebutton"
+  },
+  {
+    "propertyId": 10060,
+    "readSignalId": 561025075,
+    "readSignalName": "patcdtehvbattindicated"
+  },
+  {
+    "propertyId": 10061,
+    "readSignalId": 561024414,
+    "readSignalName": "patripaverageconsumption100",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "expression",
+          "expression": "x / 10"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10062,
+    "readSignalId": 561024416,
+    "readSignalName": "patripaverageenconsumption100",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "expression",
+          "expression": "x / 10"
+        }
+      ]
+    }
+  }
+]

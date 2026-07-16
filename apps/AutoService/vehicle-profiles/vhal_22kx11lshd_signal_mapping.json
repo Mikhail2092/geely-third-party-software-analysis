@@ -1,0 +1,401 @@
+[
+  {
+    "propertyId": 10003,
+    "readSignalId": 557873851,
+    "readSignalName": "GearLvrIndcn",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "0": "P",
+            "1": "R",
+            "2": "N",
+            "3": "D"
+          },
+          "default": "-"
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10004,
+    "readSignalId": 557873880,
+    "readSignalName": "PtGearAct"
+  },
+  {
+    "propertyId": 10005,
+    "readSignalId": 557872964,
+    "readSignalName": "AmbTRawAmbTVal"
+  },
+  {
+    "propertyId": 10006,
+    "readSignalId": 557872968,
+    "readSignalName": "CmptmtTFrntCmptmtTFrnt"
+  },
+  {
+    "propertyId": 10008,
+    "readSignalId": 557873030,
+    "readSignalName": "ExtrLtgStsStopLi"
+  },
+  {
+    "propertyId": 10009,
+    "readSignalId": 557873031,
+    "readSignalName": "ExtrLtgStsTurnIndrLe"
+  },
+  {
+    "propertyId": 10010,
+    "readSignalId": 557873032,
+    "readSignalName": "ExtrLtgStsTurnIndrRi"
+  },
+  {
+    "propertyId": 10017,
+    "readSignalId": 557872844,
+    "readSignalName": "DoorDrvrSts",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10018,
+    "readSignalId": 557872850,
+    "readSignalName": "DoorPassSts",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10019,
+    "readSignalId": 557872847,
+    "readSignalName": "DoorLeReSts",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10020,
+    "readSignalId": 557872853,
+    "readSignalName": "DoorRiReSts",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "2": 0
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 10022,
+    "readSignalId": 561021928,
+    "readSignalName": "patsdteindicated"
+  },
+  {
+    "propertyId": 10023,
+    "readSignalId": 557871360,
+    "readSignalName": "AsyLineLeColor"
+  },
+  {
+    "propertyId": 10024,
+    "readSignalId": 557871361,
+    "readSignalName": "AsyLineLeTyp"
+  },
+  {
+    "propertyId": 10025,
+    "readSignalId": 557871362,
+    "readSignalName": "AsyLineRiColor"
+  },
+  {
+    "propertyId": 10026,
+    "readSignalId": 557871363,
+    "readSignalName": "AsyLineRiTyp"
+  },
+  {
+    "propertyId": 10037,
+    "readSignalId": 289475088,
+    "readSignalName": "HW_KEY_INPUT"
+  },
+  {
+    "propertyId": 30001,
+    "readSignalId": 557871524,
+    "readSignalName": "FaceIdnResForProfYesNo",
+    "writeSignalId": 557871524,
+    "writeSignalName": "FaceIdnResForProfYesNo"
+  },
+  {
+    "propertyId": 30002,
+    "readSignalId": 557872952,
+    "readSignalName": "WinPosnStsAtDrvr",
+    "writeSignalId": 557872385,
+    "writeSignalName": "WinOpenDrvrReq",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 7,
+            "17": 7,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 10,
+            "25": 10,
+            "26": 10
+          },
+          "default": 1
+        }
+      ]
+    },
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 9,
+            "5": 11,
+            "6": 14,
+            "7": 16,
+            "8": 19,
+            "9": 21,
+            "10": 26
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30003,
+    "readSignalId": 557872953,
+    "readSignalName": "WinPosnStsAtPass",
+    "writeSignalId": 557872386,
+    "writeSignalName": "WinOpenPassReq",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 7,
+            "17": 7,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 10,
+            "25": 10,
+            "26": 10
+          },
+          "default": 1
+        }
+      ]
+    },
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 9,
+            "5": 11,
+            "6": 14,
+            "7": 16,
+            "8": 19,
+            "9": 21,
+            "10": 26
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30004,
+    "readSignalId": 557872954,
+    "readSignalName": "WinPosnStsAtReLe",
+    "writeSignalId": 557872387,
+    "writeSignalName": "WinOpenReLeReq",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 7,
+            "17": 7,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 10,
+            "25": 10,
+            "26": 10
+          },
+          "default": 1
+        }
+      ]
+    },
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 9,
+            "5": 11,
+            "6": 14,
+            "7": 16,
+            "8": 19,
+            "9": 21,
+            "10": 26
+          },
+          "default": 1
+        }
+      ]
+    }
+  },
+  {
+    "propertyId": 30005,
+    "readSignalId": 557872955,
+    "readSignalName": "WinPosnStsAtReRi",
+    "writeSignalId": 557872388,
+    "writeSignalName": "WinOpenReRiReq",
+    "readTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 7,
+            "17": 7,
+            "18": 8,
+            "19": 8,
+            "20": 8,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 10,
+            "25": 10,
+            "26": 10
+          },
+          "default": 1
+        }
+      ]
+    },
+    "writeTransform": {
+      "steps": [
+        {
+          "type": "mapping",
+          "map": {
+            "1": 1,
+            "2": 4,
+            "3": 6,
+            "4": 9,
+            "5": 11,
+            "6": 14,
+            "7": 16,
+            "8": 19,
+            "9": 21,
+            "10": 26
+          },
+          "default": 1
+        }
+      ]
+    }
+  }
+]
