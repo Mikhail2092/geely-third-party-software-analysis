@@ -10,6 +10,7 @@
 | Geely Galaxy L6 | Поддерживается / Supported |
 | Geely Atlas Pro | Поддерживается / Supported |
 | Geely Monjaro | Поддерживается / Supported |
+| GEELY EX5 EM-i | Поддерживается некоторыми приложениями / Supported by some applications |
 
 ## Статус / Status
 
