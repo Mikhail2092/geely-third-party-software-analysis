@@ -22,3 +22,7 @@
 Материалы предназначены для исследования, проверки безопасности и аудита собственных систем.
 
 These materials are intended for research, security validation, and auditing of systems you own.
+
+## Статический анализ
+
+Русские и английские отчеты собраны в [едином индексе](analysis/README.md).
