@@ -43,3 +43,13 @@ The reports cover application features, business-process implementation, local d
 | EVCC mini | [Открыть](apps/EVCC/analysis/evcc-mini.ru.md) | [Open](apps/EVCC/analysis/evcc-mini.en.md) |
 | Hey | [Открыть](apps/Hey/analysis/hey-standard.ru.md) | [Open](apps/Hey/analysis/hey-standard.en.md) |
 | Hey Xingyuan | [Открыть](apps/Hey/analysis/hey-xingyuan.ru.md) | [Open](apps/Hey/analysis/hey-xingyuan.en.md) |
+
+## Лицензия / License
+
+Оригинальные текстовые материалы, созданные авторами этого репозитория, включая README и авторские части отчетов об анализе, доступны на условиях [Creative Commons Attribution 4.0 International](LICENSE).
+
+Лицензия не распространяется на APK, JAR, DEX, Native-библиотеки, извлеченный или декомпилированный код и ресурсы, товарные знаки, названия продуктов и другие материалы третьих лиц. Все права на такие материалы сохраняются за соответствующими правообладателями. Фрагменты материалов третьих лиц, приведенные в отчетах, также исключены из лицензии.
+
+Original textual material authored by this repository's contributors, including the README and the authors' original portions of the analysis reports, is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
+
+The license does not cover APK, JAR, DEX or native binaries; extracted or decompiled code and resources; trademarks; product names; or other third-party material. All rights in such material remain with their respective owners. Third-party excerpts reproduced in the reports are likewise excluded from the license.
