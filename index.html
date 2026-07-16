@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Geely application archive and static analysis research notes.">
+  <link rel="canonical" href="https://mikhail2092.github.io/geely-apps-archive/">
+  <title>Geely App Archive</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17211d;
+      --muted: #52615a;
+      --surface: #ffffff;
+      --ground: #f3f4ef;
+      --line: #d6dbd4;
+      --brand: #1e5a46;
+      --accent: #b66b26;
+      --soft-green: #e4efe8;
+      --soft-gold: #f7ebd9;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--ground);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    a { color: inherit; }
+
+    .shell { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+    header {
+      background: var(--brand);
+      color: #ffffff;
+      border-bottom: 5px solid var(--accent);
+      padding: 48px 0 42px;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: #d8e6dc;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    h1, h2, p { margin-top: 0; }
+
+    h1 { margin-bottom: 12px; font-size: 40px; line-height: 1.15; }
+
+    .lead { max-width: 720px; margin-bottom: 0; color: #edf5ef; font-size: 18px; }
+
+    main { padding: 32px 0 48px; }
+
+    section { margin-top: 34px; }
+
+    h2 { margin-bottom: 14px; font-size: 24px; line-height: 1.25; }
+
+    .intro { max-width: 800px; color: var(--muted); }
+
+    .model-list, .app-grid, .report-grid { display: grid; gap: 12px; }
+    .model-list { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    .app-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    .report-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    .model, .app, .report {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      min-width: 0;
+    }
+
+    .model { padding: 15px; background: var(--soft-green); font-weight: 700; }
+    .app { display: flex; flex-direction: column; min-height: 170px; padding: 18px; }
+    .report { padding: 18px; }
+
+    .app h3, .report h3 { margin: 0 0 8px; font-size: 19px; }
+    .app p, .report p { margin-bottom: 18px; color: var(--muted); }
+
+    .link {
+      display: inline-block;
+      width: fit-content;
+      margin-top: auto;
+      color: var(--brand);
+      font-weight: 700;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+
+    .notice {
+      border-left: 5px solid var(--accent);
+      background: var(--soft-gold);
+      padding: 18px 20px;
+    }
+
+    .notice p:last-child { margin-bottom: 0; }
+
+    footer { border-top: 1px solid var(--line); padding: 24px 0 34px; color: var(--muted); font-size: 14px; }
+
+    @media (max-width: 860px) {
+      .model-list, .app-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 560px) {
+      .shell { padding: 0 18px; }
+      header { padding: 36px 0 32px; }
+      h1 { font-size: 32px; }
+      .model-list, .app-grid, .report-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell">
+      <p class="eyebrow">РУССКИЙ / ENGLISH</p>
+      <h1>Geely App Archive</h1>
+      <p class="lead">Архив приложений Geely и материалы статического анализа. Geely application archive and static-analysis research notes.</p>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section>
+      <h2>Совместимость / Compatibility</h2>
+      <div class="model-list" aria-label="Supported vehicle models">
+        <div class="model">Geely Galaxy L7</div>
+        <div class="model">Geely Galaxy L6</div>
+        <div class="model">Geely Atlas Pro</div>
+        <div class="model">Geely Monjaro</div>
+        <div class="model">GEELY EX5 EM-i</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Приложения / Applications</h2>
+      <p class="intro">Откройте папку приложения в репозитории. Open an application folder in the repository.</p>
+      <div class="app-grid">
+        <article class="app"><h3>AutoAudio</h3><p>Аудиосистема / Audio system</p><a class="link" href="https://github.com/Mikhail2092/geely-apps-archive/tree/main/apps/AutoAudio">Открыть / Open</a></article>
+        <article class="app"><h3>AutoDisplay</h3><p>Экран и карты / Display and maps</p><a class="link" href="https://github.com/Mikhail2092/geely-apps-archive/tree/main/apps/AutoDisplay">Открыть / Open</a></article>
+        <article class="app"><h3>AutoService</h3><p>Системные сервисы / System services</p><a class="link" href="https://github.com/Mikhail2092/geely-apps-archive/tree/main/apps/AutoService">Открыть / Open</a></article>
+        <article class="app"><h3>EVCC</h3><p>EVCC и EVCC mini</p><a class="link" href="https://github.com/Mikhail2092/geely-apps-archive/tree/main/apps/EVCC">Открыть / Open</a></article>
+        <article class="app"><h3>Hey</h3><p>Hey и Hey Xingyuan</p><a class="link" href="https://github.com/Mikhail2092/geely-apps-archive/tree/main/apps/Hey">Открыть / Open</a></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Отчеты / Reports</h2>
+      <div class="report-grid">
+        <article class="report"><h3>Общий обзор / Overview</h3><p>Структура проекта и общие выводы.</p><a class="link" href="https://github.com/Mikhail2092/geely-apps-archive/tree/main/analysis">Открыть отчеты / Open reports</a></article>
+        <article class="report"><h3>Анализ приложений / Application Analysis</h3><p>Русские и английские отчеты для каждого приложения.</p><a class="link" href="https://github.com/Mikhail2092/geely-apps-archive/tree/main/apps">Открыть материалы / Open materials</a></article>
+      </div>
+    </section>
+
+    <section class="notice">
+      <p><strong>Исследовательское назначение.</strong> Материалы подготовлены методами статического анализа; приложения не устанавливались и не запускались.</p>
+      <p><strong>Research purpose.</strong> The materials were prepared through static analysis; applications were neither installed nor executed.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">Geely App Archive</div>
+  </footer>
+</body>
+</html>

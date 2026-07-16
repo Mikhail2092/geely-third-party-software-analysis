@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mikhail2092.github.io/geely-apps-archive/sitemap.xml
