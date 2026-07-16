@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mikhail2092.github.io/geely-apps-archive/sitemap.xml
+Sitemap: https://mikhail2092.github.io/geely-third-party-software-analysis/sitemap.xml
